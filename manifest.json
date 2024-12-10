@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Bad Bot",
+    "version": "0.7",
+    "description": "Automate downvoting for OpenAI chat responses.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "icons": {
+        "16": "icon16-on.png",
+        "48": "icon48-on.png",
+        "128": "icon128-on.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon16-off.png",
+            "48": "icon48-off.png",
+            "128": "icon128-off.png"
+        },
+        "default_title": "Bad Bot"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
