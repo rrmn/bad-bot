@@ -1,6 +1,11 @@
+![OpenAI ChatGPT Downvote Bot](images/header.png?raw=true)
+
+
 # Bad Bot
 
-Bad Bot is a Chrome extension that automates downvoting responses in OpenAI Chat. It streamlines providing feedback by clicking the "thumbs down" button for each response, saving time and ensuring consistent feedback.
+Bad Bot is a Chrome extension that automates downvoting responses in OpenAI Chat. 
+
+When the bot's been a bad boy.
 
 ---
 
@@ -28,8 +33,8 @@ Bad Bot is a Chrome extension that automates downvoting responses in OpenAI Chat
 
 1. Open OpenAI Chat at [https://chat.openai.com](https://chat.openai.com).
 2. Click the **Bad Bot** icon in your toolbar:
-   - **Gray Icon**: The extension is OFF.
-   - **Colored Icon**: The extension is ON.
+   - **Outlined Icon**: The extension is OFF.
+   - **Filled Icon**: The extension is ON.
 3. Refresh the page or open new tabs as needed. The extension will retain its ON/OFF state for each tab.
 4. To stop the automation, click the icon again to toggle it OFF.
 
