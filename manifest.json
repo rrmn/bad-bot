@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Bad Bot",
-    "version": "0.7.2",
+    "version": "0.7.3",
     "description": "Automate downvoting for OpenAI chat responses.",
     "permissions": [
         "activeTab",
