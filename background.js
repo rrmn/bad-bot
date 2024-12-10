@@ -11,8 +11,8 @@ chrome.action.onClicked.addListener((tab) => {
     // Update the icon based on the state
     chrome.action.setIcon({
         path: state
-            ? { "16": "icon16-on.png", "48": "icon48-on.png", "128": "icon128-on.png" }
-            : { "16": "icon16-off.png", "48": "icon48-off.png", "128": "icon128-off.png" },
+            ? { "16": "icons/icon16-on.png", "48": "icons/icon48-on.png", "128": "icons/icon128-on.png" }
+            : { "16": "icons/icon16-off.png", "48": "icons/icon48-off.png", "128": "icons/icon128-off.png" },
         tabId: tabId,
     });
 
@@ -45,8 +45,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
         // Update the icon to match the saved state
         chrome.action.setIcon({
             path: state
-                ? { "16": "icon16-on.png", "48": "icon48-on.png", "128": "icon128-on.png" }
-                : { "16": "icon16-off.png", "48": "icon48-off.png", "128": "icon128-off.png" },
+                ? { "16": "icons/icon16-on.png", "48": "icons/icon48-on.png", "128": "icons/icon128-on.png" }
+                : { "16": "icons/icon16-off.png", "48": "icons/icon48-off.png", "128": "icons/icon128-off.png" },
             tabId: tabId,
         });
 
