@@ -8,7 +8,7 @@
         "scripting",
         "storage"
     ],
-    "icons/icons": {
+    "icons": {
         "16": "icons/icon16-on.png",
         "48": "icons/icon48-on.png",
         "128": "icons/icon128-on.png"
