@@ -21,6 +21,15 @@ When the bot's been a bad boy.
 
 ## Installation
 
+### Chrome Webstore
+
+1. Go to [Bad Bot on the Chrome Webstore](https://chromewebstore.google.com/detail/bad-bot/jiabmkbchkljekahmglobgneopcjpjim).
+2. Click **Add to Chrome**.
+3. The Bad Bot icon should now appear in your toolbar.
+
+
+### Github
+
 1. Clone or download this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top-right corner).
